@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #1e293b;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #3b82f6, #06b6d4);
+    color: white;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Cards */
+.skills, .projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e293b;
+    color: white;
+}
